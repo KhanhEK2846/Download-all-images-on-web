@@ -15,7 +15,7 @@ for image in images:
     print(Data)
     if ";" in Data:
         continue
-    downloadPath = ".Img_Down"
+    downloadPath = ".\Img_Down\\"
     filetmp = Data.split('/')
 
     for files in filetmp:
